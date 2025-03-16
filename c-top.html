@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Rikiya Matsuda</title>
+<meta name="description"  content="Portfolio">
+  <link rel="icon" type="image/svg+xml" href="svg/favicon.svg">
+  <link rel="apple-touch-icon" href="svg/favicon.svg" sizes="180x180">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<!--CSS-->
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/classic.css" id="style">
+
+<!--Font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Noto+Sans+JP&family=Zen+Maru+Gothic:wght@300;400;500;700&family=Zen+Old+Mincho:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header id="header">
+
+  <div id="logo" >
+      <a a href="c-top.html" class="active">
+        <div id="logo-area"></div>
+      </a>
+  </div>
+
+
+  <nav id="menu">
+      <ul id="menu-list">
+        <li><a href="c-works.html" class="btn txt-M">Works</a></li>
+        <li><a href="c-profile.html" class="btn txt-M">Profile</a></li>
+        <li><a href="c-hobby.html" class="btn txt-M">Hobby</a></li>
+      </ul>
+  </nav>
+
+
+  <div id="setting">
+    <label for="popupFlag1" class="btn" onClick="getElements();">
+      <div id="setting-area">
+      </div>
+    </label>
+  </div>
+</header>
+
+
+
+<!--popup-template-->
+<input type="checkbox" class="popup-flag" id="popupFlag1">
+<label class="popup-background" for="popupFlag1"></label>
+<div class="popup">
+  <div class="pu-header">
+    <div class="pu-title">
+    <p class="txt-M">テーマ設定</p>
+    </div>
+    <label class="close-button" for="popupFlag1">
+      <div class="icon-close-btn"></div>
+    </label>
+  </div>
+  <div class="pu-line"></div>
+  <ul class="pu-select">
+    <li id="style-C">
+      <p class="txt-M">01</p>
+      <a href="#">Classic</a>
+      <p class="txt-S">不滅のかっこよさ</p>
+    </li>
+    <li id="style-D">
+      <p class="txt-M">02</p>
+      <a href="d-top.html"><span class="blinking"></span>&nbsp;Dot&nbsp;</a>
+      <p class="txt-S">人生はRPG</p>
+    </li>
+    <li id="style-G">
+      <p class="txt-M">03</p>
+      <a href="g-top.html">Glassmorphism</a>
+      <p class="txt-S">Appleは偉大</p>
+    </li>
+    <li id="style-N">
+      <p class="txt-M">04</p>
+      <a href="n-top.html">Neumorphism</a>
+      <p class="txt-S">可愛さと制約多め</p>
+    </li>
+  </ul>
+</div> 
+
+
+
+
+
+<footer id="footer">
+  <nav id="menu-m">
+    <ul id="menu-m-list">
+      <li><a href="c-works.html" class="btn txt-M">Works</a></li>
+      <li><a href="c-profile.html" class="btn txt-M">Profile</a></li>
+      <li><a href="c-hobby.html" class="btn txt-M">Hobby</a></li>
+    </ul>
+</nav>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<section id="main">
+  <div class="title">
+    <h1 class="txt-title">
+      ユーザーのミスを防ぐ<br>
+      デザイン
+    </h1>
+    <h5 class="txt-subtitle">ーヤコブ・ニールセン&nbsp;&nbsp;ユーザービリティの10原則より</h5>
+  </div>
+  <div class="title-caption">
+    <div class="message">
+      <p class="txt-S">
+        私は普段、医療機器の画面をデザインしています。<br>
+        関わる製品は医療従事者向けが大半を占め、専門知識を必要とするものも多くあります。
+        デザインを通して、医療ミスを防ぐことがモットーです。
+      </p>
+    </div>
+  </div>
+
+  
+
+  
+
+
+
+</section>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
