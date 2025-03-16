@@ -1,0 +1,314 @@
+/*neumorphism*/
+
+
+body{
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #617A9E;
+
+    background: #E0E5EC;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.txt-B{
+    font-weight: 600;
+}
+
+
+
+
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    isolation: isolate;
+    text-decoration: none;
+	transition: 0.3s;
+    color: #617A9E;
+    background: #E0E5EC;
+    box-shadow:  8px 8px 16px #bebebe,  -6px -6px 16px #ffffff;
+    border-radius: 1rem;
+    border: none;
+}
+
+
+.btn:hover {
+	 background: #E0E5EC;
+     box-shadow:  4px 4px 8px #bebebe,  -3px -3px 8px #ffffff;
+}
+
+.btn:active{
+    background: #E0E5EC;
+	box-shadow: inset 3px 3px 8px #bebebe, inset -3px -3px 8px #ffffff;
+}
+
+.active{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    isolation: isolate;
+    text-decoration: none;
+	transition: 0.3s;
+    color: #617A9E;
+    border-radius: 1rem;
+    background: #E0E5EC;
+	box-shadow: inset 3px 3px 8px #bebebe, inset -3px -3px 8px #ffffff;
+}
+
+
+
+
+
+#header{
+    background: #E0E5EC;
+    box-shadow:  8px 8px 16px #bebebe,  -6px -6px 16px #ffffff;
+}
+
+
+
+
+#logo-area{
+    background: no-repeat url("../svg/icon_home_N.svg");
+    background-size: 40px;
+    background-position: center;
+}
+
+
+
+#setting label{
+    border-radius: 100rem;
+}
+
+#setting-area{
+    background: no-repeat url("../svg/icon_setting_N.svg");
+}
+
+
+
+
+
+
+.popup-background{
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0.5rem);
+}
+    
+
+
+.popup{
+    background: #E0E5EC;
+    border-radius: 1rem;
+}
+
+
+.popup > .pu-footer{
+    height: 1rem;
+    background:  #E0E5EC;
+}
+
+
+.pu-line{
+    height: 0.25rem;
+    background: #E0E5EC;
+    box-shadow: inset 0px -2px 2px #FFFFFF, inset 0px 2px 2px #BEBEBE;
+}
+
+
+.close-button{
+    border-radius: 100rem;
+}
+
+
+.icon-close-btn{
+    background: no-repeat url("../svg/icon_close_btn_N.svg");
+}
+
+
+.message{
+    border: 0.125rem solid #617A9E;
+    border-radius: 0.25rem;
+}
+
+
+
+
+
+
+#work01{
+    background: url(../svg/work01_N.svg);
+    background-size: 100% auto;
+}
+
+
+
+#work02{
+    border: 0.125rem solid #617b9e;
+}
+
+.photo-area{
+    color: #617A9E;
+    border-radius: 1rem;
+    background: #E0E5EC;
+	box-shadow: inset 3px 3px 8px #bebebe, inset -3px -3px 8px #ffffff;
+}
+
+
+.photo{
+    background: url(../img/img_photoD.PNG);
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+#my-chart {
+    --color: #617A9E;
+  }
+
+  #my-chart .bar {
+    --primary-axis-color: #617b9e;
+    --primary-axis-width: 0.125rem;
+    --secondary-axes-color: #617b9e8a;
+  }
+
+  #my-chart .data{
+    padding: 0 0.5rem;
+    color: #E0E5EC;
+  }
+
+
+
+
+model-viewer{
+    border-radius: 1rem;
+    background: #E0E5EC;
+	box-shadow: inset 3px 3px 8px #bebebe, 
+                inset -3px -3px 8px #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*タブレット・スマホ版サイズ*/
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+
+
+
+    .btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        isolation: isolate;
+        text-decoration: none;
+        transition: 0.3s;
+        color: #617A9E;
+        background: #E0E5EC;
+        box-shadow:  4px 4px 8px #bebebe,  -3px -3px 8px #ffffff;
+        border-radius: 0.5rem;
+        border: none;
+    }
+    
+    
+    .btn:active{
+        background: #E0E5EC;
+        box-shadow: inset 3px 3px 8px #bebebe, inset -3px -3px 8px #ffffff;
+        border-radius: 0.5rem;
+    }
+
+    .active{
+        border-radius: 0.5rem;
+    }
+
+
+
+
+
+
+
+    #header{
+        background: #E0E5EC;
+        box-shadow:  8px 8px 16px #bebebe,  -6px -6px 16px #ffffff;
+    }
+
+
+
+    
+    #logo-area{
+        background-size: 32px;
+        background-position: center;
+    }
+    
+
+
+
+
+    #footer{
+        background: #E0E5EC;
+        box-shadow:  8px 8px 16px #bebebe,  -6px -6px 16px #ffffff;
+    }
+
+
+
+
+
+
+
+
+    
+    #setting-area{
+        background-size: 2rem 2rem;
+    }
+    
+    
+    
+    
+
+
+
+    
+
+
+
+
+}
+
+
+
+
+

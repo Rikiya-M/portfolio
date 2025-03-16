@@ -1,0 +1,323 @@
+/*classic*/
+
+
+body{
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1E1B19;
+
+    background: #ECE4D1;
+    background-size: cover;
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.txt-B{
+    font-weight: 600;
+}
+
+
+
+
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    isolation: isolate;
+    text-decoration: none;
+	transition: 0.3s;
+    color: #1E1B19;
+    background: #ECE4D1;   
+    cursor: pointer;
+}
+
+
+.btn:hover {
+    color: #B51D0B;
+}
+
+.btn:active{
+    color: #B51D0B;
+}
+
+.active{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    isolation: isolate;
+    text-decoration: none;
+	transition: 0.3s;
+    color: #B51D0B;
+}
+
+
+
+
+
+#header{
+    background: #ECE4D1;
+    border-right: 0.125rem solid #1E1B19;
+}
+
+
+
+
+#logo-area{
+    background: no-repeat url("../svg/icon_home_C_n.svg");
+    background-size: 64px;
+    background-position: center;
+}
+
+#logo-area:hover{
+    background: no-repeat url("../svg/icon_home_C_p.svg");
+    background-size: 64px;
+    background-position: center;
+}
+
+
+#setting label{
+    border: none;
+    border-radius: 0rem;
+}
+
+#setting-area{
+    background: no-repeat url("../svg/icon_setting_C_n.svg");
+}
+
+#setting-area:hover{
+    background: no-repeat url("../svg/icon_setting_C_p.svg");
+}
+
+
+
+
+
+.popup-background{
+    background: rgba(0, 0, 0, 0.9);
+}
+    
+
+
+.popup{
+    background: #ECE4D1;
+    color: #1E1B19;
+}
+
+
+.popup > .pu-footer{
+    height: 1rem;
+    background:  #ECE4D1;
+}
+
+
+.pu-line{
+    height: 0.125rem;
+    background: #1E1B19;
+}
+
+
+.close-button{
+    border-radius: none;
+}
+
+
+.icon-close-btn{
+    background: no-repeat url("../svg/icon_close_btn_C.svg");
+}
+
+
+.message{
+    border: 0.125rem solid #1E1B19;
+    border-radius: 0.25rem;
+}
+
+
+
+
+
+
+#work01{
+    background: url(../svg/work01_C.svg);
+    background-size: 100% auto;
+}
+
+
+
+#work02{
+    border: 0.125rem solid #617b9e;
+}
+
+.photo-area{
+    color: #1E1B19;
+    border-radius: 0rem;
+    background: #ECE4D1;
+}
+
+
+.photo{
+    background: url(../img/img_photoD.PNG);
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+
+#my-chart {
+    --color: #1E1B19;
+  }
+
+  #my-chart .bar {
+    --primary-axis-color: #1E1B19;
+    --primary-axis-width: 0.125rem;
+    --secondary-axes-color: #1e1b1972;
+  }
+
+  #my-chart .data{
+    padding: 0 0.5rem;
+    color: #ECE4D1;
+  }
+
+
+
+
+model-viewer{
+    border-radius: 0rem;
+    background: #ECE4D1;
+    border: 0.125rem solid #1E1B19;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*タブレット・スマホ版サイズ*/
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+
+
+
+    .btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        isolation: isolate;
+        text-decoration: none;
+        transition: 0.3s;
+        color: #1E1B19;
+        background: #ECE4D1;
+    }
+    
+    
+    .btn:active{
+        background: #ECE4D1;
+    }
+
+    .active{
+        border-radius: 0.5rem;
+    }
+
+
+
+
+
+
+
+    #header{
+        background: #ECE4D1;
+        border-bottom: 0.125rem solid #1E1B19;
+    }
+
+
+
+    
+    #logo-area{
+        background-size: 48px;
+        background-position: center;
+    }
+    
+
+    #logo-area:hover{
+        background-size: 48px;
+        background-position: center;
+    }
+
+
+
+
+    #footer{
+        background: #ECE4D1;
+        border-top: 0.125rem solid #1E1B19;
+    }
+
+
+
+
+
+
+
+
+    
+    #setting-area{
+        background-size: 2rem 2rem;
+    }
+    
+    
+    #setting-area:hover{
+        background-size: 2rem 2rem;
+    }
+
+    
+
+
+    
+
+    
+    
+    
+
+
+
+    
+
+
+
+
+}
+
+
+
+
+

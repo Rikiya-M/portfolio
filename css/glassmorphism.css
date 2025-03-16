@@ -1,0 +1,300 @@
+/*glassmorphism*/
+
+body{
+    font-family: "Noto Sans JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+
+    background:  linear-gradient(-60deg, #FEB692 12.32%, #FA5455 87.68%);
+    background-size: cover;
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.txt-B{
+    font-weight: 600;
+}
+
+
+
+
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    isolation: isolate;
+    text-decoration: none;
+	transition: 0.3s;
+    color: #FFFFFF;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%) ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(0px);
+    border-radius: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+}
+
+
+
+
+.btn:hover {
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%) ;
+    box-shadow: 0px 0px 0px  rgba(0, 0, 0, 0.25);
+}
+
+.btn:active{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%);
+}
+
+
+.active{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    isolation: isolate;
+    text-decoration: none;
+	transition: 0.3s;
+    color: #FFFFFF;
+    backdrop-filter: blur(5px);
+    border-radius: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+}
+
+
+
+
+
+#header{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%) ;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+
+
+
+#logo-area{
+    background: no-repeat url("../svg/icon_home_G.svg");
+    background-size: 48px;
+    background-position: center;
+}
+
+
+
+#setting label{
+    border-radius: 100rem;
+}
+
+#setting-area{
+    background: no-repeat url("../svg/icon_setting_G.svg");
+}
+
+
+
+
+
+
+.popup-background{
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+    
+
+
+.popup{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%) ;
+    backdrop-filter: blur(15px);
+    border-radius: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+
+.popup > .pu-footer{
+    height: 1px;
+    background:  #ffffff;
+}
+
+
+.pu-line{
+    height: 1px;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+
+.close-button{
+    border-radius: 100rem;
+}
+
+
+.icon-close-btn{
+    background: no-repeat url("../svg/icon_close_btn_G.svg");
+}
+
+
+.message{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%) ;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+
+
+
+
+
+#work01{
+    background: url(../svg/work01_G.svg);
+    background-size: 100% auto;
+}
+
+
+
+#work02{
+    border: 0.125rem solid #617b9e;
+}
+
+.photo-area{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%) ;
+    backdrop-filter: blur(5px);
+    border-radius: 0.5rem;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+
+.photo{
+    background: url(../img/img_photoD.PNG);
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+#my-chart {
+    --color: rgba(255, 255,255, 0.5);
+  }
+
+  #my-chart .bar {
+    --primary-axis-color: rgba(255, 255,255, 0.5);
+    --primary-axis-width: 0.125rem;
+    --secondary-axes-color: rgba(255, 255,255, 0.5);
+  }
+
+  #my-chart .data{
+    padding: 0 0.5rem;
+    color: rgba(255, 255,255, 0.5);
+  }
+
+
+
+
+model-viewer{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%) ;
+    backdrop-filter: blur(5px);
+    border-radius: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*タブレット・スマホ版サイズ*/
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    #header{
+        background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%) ;
+        backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+
+
+    
+    #logo-area{
+        background-size: 32px;
+        background-position: center;
+    }
+    
+
+
+
+
+    #footer{
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%) ;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+
+
+
+
+
+
+
+    
+    #setting-area{
+        background-size: 2rem 2rem;
+    }
+    
+    
+    
+
+    
+    
+  
+
+
+
+}
+
+
+
+
+
