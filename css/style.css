@@ -622,3 +622,263 @@ box-shadow:  4px 4px 8px #bebebe,  -3px -3px 8px #ffffff;
 
 
 }
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+
+    .txt-title{
+        font-size: 1.2rem;
+        font-family: "Zen Kaku Gothic New", serif;
+    }
+    
+    .txt-M{
+    font-size: 1.2rem;
+    font-family: "Zen Kaku Gothic New", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+    
+
+    .txt-S{
+        font-size: .8rem;
+    }
+
+
+
+
+.top-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    margin: 0;
+    gap: 4%;
+
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 6rem;
+
+    border-top: none;
+    border-bottom: none;
+    
+}
+
+
+
+
+#logo{
+    padding: 0rem 3%;
+
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+}
+
+
+#logo-area{
+    width: 4rem;
+    height: 4rem;
+}
+
+
+ .top-select {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style: none;
+
+        padding: 0;
+        gap: 0;
+
+        width: 100%;
+        height: calc(100% - 8rem);
+    }
+
+
+
+
+    .top-select li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10%;
+        list-style: none;
+
+        width: calc(100% - 4rem);
+        height: 25%;
+
+
+        padding: 0 2rem;
+    }
+
+
+
+
+
+    #style-C a{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+        font-size: 3.5vw;
+        border: 0.125rem solid #1E1B19;   
+        cursor: pointer;
+
+        width: 32%;
+        height: 64%;
+    }
+
+    #style-C a:hover{
+        color: #B51D0B;
+        border: 0.125rem solid #B51D0B; 
+    }
+
+
+    
+
+
+
+
+
+
+    #style-D a{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+        font-size: 3.5vw;
+        color: #ffffff;
+        background: #1f1f1f;
+
+        box-shadow: 0.25rem 0 #ffffff,
+                    -0.25rem 0 #ffffff,
+                    0 0.25rem  #ffffff,
+                    0 -0.25rem  #ffffff;
+
+        width: 32%;
+        height: 64%;
+        cursor: pointer;
+
+        .blinking{
+            opacity: 0;
+    
+            background: no-repeat url(../svg/icon_triangle_D.svg);
+            background-size: 10px;
+            background-position: center;
+            width: 1rem;
+            height: calc(tan(60deg) * 1.5rem / 2);
+        }
+    }
+
+    #style-D a:hover{
+        .blinking{
+            opacity: 1;
+            animation: blink 1s step-end infinite;
+        }
+    }
+    @keyframes blink {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+
+    #style02-D a:active{
+        .blinking{
+            opacity: 1;
+        }   
+    }
+
+
+
+
+
+
+    #style-G a{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+        font-size: 3.5vw;
+        color: #FAFAFA;
+        background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(5px);
+        border-radius: 1rem;
+        border: 0.125rem solid rgba(255, 255, 255, 0.25);
+        cursor: pointer;
+
+        width: 32%;
+        height: 64%;
+    }
+
+    #style-G a:hover{
+        background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%);
+        box-shadow: 0px 0px 0px;
+        backdrop-filter: blur(5px);
+        border-radius: 1rem;
+        border: 0.125rem solid rgba(255, 255, 255, 0.25);
+    }
+
+    #style-G a:active{
+        background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%);
+        box-shadow: 0px 0px 0px;
+        backdrop-filter: blur(5px);
+        border-radius: 1rem;
+        border: 0.125rem solid rgba(255, 255, 255, 0.25);
+    }
+
+
+
+
+
+    #style-N a{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+        font-size: 3.5vw;
+        color: #617A9E;
+        background: #E0E5EC;
+        box-shadow:  8px 8px 16px #bebebe,  -6px -6px 16px #ffffff;
+        border-radius: 1rem;
+        border: none;
+        cursor: pointer;
+
+        width: 32%;
+        height: 64%;
+    }
+
+    #style-N a:hover{
+    background: #E0E5EC;
+    box-shadow:  4px 4px 8px #bebebe,  -3px -3px 8px #ffffff;
+    }
+
+    #style-N a:active{
+        background: #E0E5EC;
+        box-shadow: inset 3px 3px 8px #bebebe, inset -3px -3px 8px #ffffff;
+    }
+
+
+
+
+
+    
+
+
+}
