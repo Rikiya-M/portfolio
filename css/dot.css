@@ -283,10 +283,10 @@ model-viewer{
         color: #ffffff;
         background: #1f1f1f;
     
-        box-shadow: 0.25rem 0 #ffffff,
-                    -0.25rem 0 #ffffff,
-                    0 0.25rem  #ffffff,
-                    0 -0.25rem  #ffffff;
+        box-shadow: 0.2rem 0 #ffffff,
+                    -0.2rem 0 #ffffff,
+                    0 0.2rem  #ffffff,
+                    0 -0.2rem  #ffffff;
     
         cursor: pointer;
     
@@ -311,10 +311,10 @@ model-viewer{
         color: #ffffff;
         background: #1f1f1f;
     
-        box-shadow: 0.25rem 0 #ffffff,
-                    -0.25rem 0 #ffffff,
-                    0 0.25rem  #ffffff,
-                    0 -0.25rem  #ffffff;
+        box-shadow: 0.2rem 0 #ffffff,
+                    -0.2rem 0 #ffffff,
+                    0 0.2rem  #ffffff,
+                    0 -0.2rem  #ffffff;
     
         cursor: pointer;
     
@@ -341,10 +341,10 @@ model-viewer{
 
     #header{
         background: #1f1f1f;
-        box-shadow: 0.25rem 0 #ffffff,
-                    -0.25rem 0 #ffffff,
-                    0 0.25rem  #ffffff,
-                    0 -0.25rem  #ffffff;
+        box-shadow: 0.2rem 0 #ffffff,
+                    -0.2rem 0 #ffffff,
+                    0 0.2rem  #ffffff,
+                    0 -0.2rem  #ffffff;
     }
 
 
@@ -361,10 +361,10 @@ model-viewer{
 
     #footer{
         background: #1f1f1f;
-        box-shadow: 0.25rem 0 #ffffff,
-                    -0.25rem 0 #ffffff,
-                    0 0.25rem  #ffffff,
-                    0 -0.25rem  #ffffff;
+        box-shadow: 0.2rem 0 #ffffff,
+                    -0.2rem 0 #ffffff,
+                    0 0.2rem  #ffffff,
+                    0 -0.2rem  #ffffff;
     }
 
 
