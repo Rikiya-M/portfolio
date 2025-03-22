@@ -973,6 +973,9 @@ model-viewer{
 
         .blinking{
             opacity: 0;
+
+            background-size: 10px;
+            background-position: center;
         }
     }
 
